@@ -17,7 +17,7 @@
 
 /* Hero Section */
 .hero-section {
-    min-height: 90vh;
+    min-height: 100vh;
     max-height: 900px;
     background: linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
