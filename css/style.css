@@ -57,3 +57,31 @@ section {
 .project-card:hover img {
     filter: brightness(1) contrast(1.1);
 }
+
+.form-control.custom-focus:focus {
+    border-color: rgb(13, 195, 232);
+    box-shadow: 0 0 0 0.25rem rgba(13, 195, 232, 0.25);
+}
+
+/* footer styles */
+.footer-link {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: rgb(13, 195, 232);
+    text-decoration: underline;
+}
+
+.footer-icon {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.75);
+    transition: color 0.2s ease;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    color: rgb(13, 195, 232);
+}

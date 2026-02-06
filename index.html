@@ -135,6 +135,48 @@
                 </div>
             </div>
         </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Get In Touch</h2>
+        
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label"><i class="bi bi-person me-1"></i>Name</label>
+                                <input type="text" class="form-control custom-focus" required 
+                                minlength="3" pattern="[a-zA-Z ]+"
+                                placeholder="Your name">
+                            </div>
+        
+                            <div class="mb-3">
+                                <label class="form-label"><i class="bi bi-envelope me-1"></i>Email</label>
+                                <input type="email" class="form-control custom-focus" required 
+                                inputmode="email"
+                                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" 
+                                placeholder="Your email">
+                            </div>
+        
+                            <div class="mb-3">
+                                <label class="form-label"><i class="bi bi-chat-dots me-1"></i>Message</label>
+                                <textarea class="form-control custom-focus" required 
+                                rows="5" cols="30" minlength="15" maxlength="200" 
+                                placeholder="Your message(min 15 & max 200 characters)"></textarea>
+                            </div>
+        
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-info me-2">
+                                    <i class="bi bi-send"></i> Send
+                                </button>
+                                <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     
     <!-- FOOTER  -->
@@ -167,7 +209,7 @@
                     <a href="#" class="footer-icon me-3" aria-label="LinkedIn">
                         <i class="bi bi-linkedin"></i>
                     </a>
-                    <a href="https://github.com/Bonica-rose" class="footer-icon" aria-label="GitHub">
+                    <a href="https://github.com/Bonica-rose?tab=repositories" class="footer-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
                         <i class="bi bi-github"></i>
                     </a>
                 </div>
