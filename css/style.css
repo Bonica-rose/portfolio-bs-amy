@@ -23,3 +23,14 @@
         url("../images/hero.jpg") center/cover no-repeat;
     color: #ffffff;
 }
+
+#about img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Smooth section spacing */
+section {
+    scroll-margin-top: 70px;
+}
