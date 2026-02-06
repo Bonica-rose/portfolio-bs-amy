@@ -17,10 +17,11 @@
 
 /* Hero Section */
 .hero-section {
-    height: 100vh;
+    min-height: 90vh;
+    max-height: 900px;
     background: linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
-        url("../images/hero.jpg") center/cover no-repeat;
+        url("../images/hero.jpg") center 30%/cover no-repeat;
     color: #ffffff;
 }
 
