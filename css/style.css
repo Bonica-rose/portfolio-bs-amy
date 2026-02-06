@@ -34,3 +34,26 @@
 section {
     scroll-margin-top: 70px;
 }
+.project-card {
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(184, 181, 181, 0.75);
+}
+
+.project-card img {
+    filter: brightness(0.9) contrast(1.05);
+    transition: filter 0.3s ease;
+    aspect-ratio: 4 / 5;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.project-card:hover img {
+    filter: brightness(1) contrast(1.1);
+}
